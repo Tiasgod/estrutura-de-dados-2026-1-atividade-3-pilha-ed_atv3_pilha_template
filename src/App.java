@@ -72,6 +72,7 @@ public class App {
         }
     }
 
+<<<<<<< HEAD
     public static Stack<Integer> criarPilhaValoresFixos() {
         Stack<Integer> pilha = new Stack<>();
 
@@ -149,10 +150,17 @@ public static String paginaAtual(Stack<String> historico) {
         System.out.println("Pilha: " + pilha);
         pilha.pop();
         System.out.println("Pilha atualizada: " + pilha);
+=======
+
+
+    private static void executarExercicio01() {
+   
+>>>>>>> origin/main
     }
 
 
     private static void executarExercicio02() {
+<<<<<<< HEAD
     Stack<String> pilha = criarPilhaNomes();
 
     System.out.println("Topo: " + pilha.peek());
@@ -297,5 +305,29 @@ public static String paginaAtual(Stack<String> historico) {
 
     } while (opcao != 5);
 }
+=======
+     
+    }
+
+
+    private static void executarExercicio03(Scanner scanner) {
+      
+    }
+
+
+    private static void executarExercicio04(Scanner scanner) {
+       
+    }
+
+    private static void executarExercicio05(Scanner scanner) {
+       
+    }
+
+
+    private static void executarExercicio06(Scanner scanner) {
+        
+    }
+
+>>>>>>> origin/main
     
 }
